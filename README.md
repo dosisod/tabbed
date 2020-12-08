@@ -1,3 +1,10 @@
+# tabbed
+
+My custom build of `tabbed`.
+
+Below is a copy of the original README.
+
+```
 tabbed - generic tabbed interface
 =================================
 tabbed is a simple tabbed X window container.
@@ -19,4 +26,4 @@ Afterwards enter the following command to build and install tabbed
 Running tabbed
 --------------
 See the man page for details.
-
+```
