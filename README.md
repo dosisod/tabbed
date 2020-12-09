@@ -5,6 +5,7 @@ My custom build of `tabbed`.
 ## Patches
 
 * [alpha](http://tools.suckless.org/tabbed/patches/alpha/)
+* [autohide](http://tools.suckless.org/tabbed/patches/autohide/)
 
 Below is a copy of the original README.
 
