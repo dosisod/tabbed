@@ -11,7 +11,7 @@ DOCPREFIX = ${PREFIX}/share/doc/${NAME}
 # use system flags.
 TABBED_CFLAGS = -I/usr/X11/include -I/usr/include/freetype2 ${CFLAGS}
 TABBED_LDFLAGS = -L/usr/X11/lib -lX11 -lfontconfig -lXft -lXrender ${LDFLAGS}
-TABBED_CPPFLAGS = -DVERSION=\"${VERSION}\" -D_DEFAULT_SOURCE
+TABBED_CPPFLAGS = -DVERSION=\"${VERSION}\" -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=700L
 
 SRC = tabbed.c xembed.c
 OBJ = ${SRC:.c=.o}
